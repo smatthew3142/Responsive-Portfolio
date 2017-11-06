@@ -248,103 +248,104 @@ footer {
 
 @media screen and (max-width: 980px) {
 
-  .top-banner{
+  img{
+
+  }
+
+  .wrap{
+
     width: 100%;
   }
 
-  .navigation{
-
-    margin-right: 12%;
-  }
-
-  .name {
-    margin-left: 12%;
-  }
-
+  .top-banner {
+  width: 90%;
+  margin: 0 auto;
+}
 
   .main-content{
-    width: 75%;
-    clear:both;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .inside{
     display:block;
-    width:55%;
-    margin-left: auto;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 25px;
+
+  }
+
+  .portfolio img{
+    display:block;
+    float: none;
+    margin: auto;
+    width: 90%;
+    height:auto;
+    
 
   }
 
   .inside img{
+    display:block;
     float: none;
-    margin-left: 17%;
+    margin: auto;
+    width: 90%;
+    height:auto;
+    
 
+  }
+
+  .inside p{
+    display:block;
+    float:none;
   }
 
   .note {
-    margin-left: 17%;
+    width: 90%;
+
   }
 
-
-  .right-col{
-
-    clear: both;
-    display: block;
-    margin-right: 22%;
+  .right-col img{
+    display:block;
+    float: none;
+    margin: auto;
+    width: 90%;
+    height:auto;
   }
 
   .sidebar{
     display:block;
-    float: left;
-    margin-left: 5%;
-      
+    float:right;
+    margin: auto;
+
     
   }
-
-
-}
 
 
 }
 
 @media screen and (max-width: 768px) {
 
-
-  header{
-    
-    
-  }
-
-  .navigation{
-    
-  }
-
-  .main-content{
+   .main-content{
+    width:90%;
     
   }
 
   .inside{
-    
+    width:100%;
+    margin-bottom: 10px;
   }
 
-  .inside  img {
-  
-}
-
-  .portfolio{
-    
+  .inside{
+    clear:both;
+    float: left;
   }
-
-  .right-col {
-  
-}
-
 
   .sidebar{
-    
     width:100%;
-    margin:auto;
+    margin-top: 25px;
+    margin: auto;
   }
-
 
 }
 
@@ -356,24 +357,6 @@ footer {
     
   }
 
-
-  .navigation{
-    
-  }
-
-  .main-content{
-    
-  }
-
-  .inside{
-    
-  }
-
-  .sidebar{
-    width: 100%;
-    padding:30px;
-
-  }
 
 
 }
