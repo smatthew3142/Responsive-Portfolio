@@ -248,10 +248,6 @@ footer {
 
 @media screen and (max-width: 980px) {
 
-  img{
-
-  }
-
   .wrap{
 
     width: 100%;
@@ -301,7 +297,7 @@ footer {
   }
 
   .note {
-    width: 90%;
+    width: 100%;
 
   }
 
@@ -309,7 +305,6 @@ footer {
     display:block;
     float: none;
     margin: auto;
-    width: 90%;
     height:auto;
   }
 
@@ -332,17 +327,23 @@ footer {
   }
 
   .inside{
-    width:100%;
-    margin-bottom: 10px;
+    width: 100%;
   }
 
-  .inside{
-    clear:both;
+  .inside img{
     float: left;
+    width: 45%;
+    height: auto;
+    margin: 5%;
+  }
+
+  .note {
+    width: 45%;
+    margin: 5%;
   }
 
   .sidebar{
-    width:100%;
+    width: 100%;
     margin-top: 25px;
     margin: auto;
   }
@@ -356,6 +357,71 @@ footer {
     position: static;
     
   }
+
+  .top-banner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+  .name{
+    width: 100%;
+    margin: 0;
+  }
+
+  .navigation{
+    padding: 10px;
+    text-align: center;
+    clear:both;
+    display: inline;
+    float: none;
+  }
+
+  .main-content{
+    width: 90%;
+  }
+
+  .inside{
+    display:block;
+    width: 100%
+
+  }
+
+  .portfolio img{
+    display:block;
+    float: none;
+    margin: auto;
+    
+
+  }
+
+  .inside img{
+    display:block;
+    float: none;
+    margin: auto;
+    width: 90%;
+    height:auto;
+    
+
+  }
+
+  .inside p{
+    display:block;
+    float:none;
+  }
+
+  .note {
+    width: 90%;
+
+  }
+
+ .right-col img{
+    display:block;
+    float: none;
+    margin: auto;
+    height:auto;
+  }
+
+
 
 
 
