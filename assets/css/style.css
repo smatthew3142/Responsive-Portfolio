@@ -330,15 +330,15 @@ footer {
     width: 100%;
   }
 
-  .inside img{
+ /* .inside img{
     float: left;
     width: 45%;
     height: auto;
     margin: 5%;
-  }
+  }*/
 
   .note {
-    width: 45%;
+    width: 90%;
     margin: 5%;
   }
 
